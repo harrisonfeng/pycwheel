@@ -136,7 +136,7 @@ def rezip_whl(whl_name):
     shutil.move('.'.join([whl_name, "zip"]),
                 os.path.join(os.getcwd(),
                              "compiled",
-                             '.'.join([whl_name, ".whl"]))
+                             '.'.join([whl_name, "whl"]))
                 )
 
 
