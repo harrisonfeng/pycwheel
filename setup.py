@@ -1,4 +1,5 @@
 # Copyright (c) 2016 Grant Patten
+# Copyright (c) 2019 Harrison Feng
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -17,6 +18,7 @@
 # LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
+
 from setuptools import setup
 
 import pycwheel
@@ -25,9 +27,9 @@ import pycwheel
 setup(
     name="pycwheel",
     version=pycwheel.__version__,
-    author="Grant Patten",
-    author_email="grant@gpatten.com",
-    url="https://github.com/grantpatten/pycwheel",
+    author="Grant Patten, Harrison Feng",
+    author_email="grant@gpatten.com, feng.harrison@gmail.com",
+    url="https://github.com/harrisonfeng/pycwheel",
     py_modules=["pycwheel"],
     entry_points={
         'console_scripts': [
@@ -43,5 +45,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Topic :: Utilities",
     ],
-    keywords="pyc wheel compile"
+    keywords="pyc or pyo wheel compile"
 )
